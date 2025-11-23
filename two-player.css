@@ -21,7 +21,7 @@ body {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.55);
   max-width: 480px;
   width: 100%;
-  margin: 16px;           /* ⭐ space from screen edges on mobiles */
+  margin: 16px;           /* space from screen edges on mobiles */
 }
 
 h1 {
@@ -57,7 +57,7 @@ h1 {
   margin-bottom: 14px;
 }
 
-/* ⭐ Responsive cells – no fixed px size */
+/*  Responsive cells – no fixed px size */
 .cell {
   width: 100%;
   aspect-ratio: 1 / 1;       /* keeps each cell square automatically */
@@ -141,7 +141,7 @@ h1 {
   margin-bottom: 4px;
 }
 
-/* 📱 Extra tweaks for very small screens */
+/* Extra tweaks for very small screens */
 @media (max-width: 480px) {
   .container {
     padding: 20px 16px 22px;

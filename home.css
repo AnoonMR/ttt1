@@ -21,7 +21,7 @@ body {
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.55);
   max-width: 520px;
   width: 100%;
-  margin: 16px;           /* ⭐ gives breathing room on small screens */
+  margin: 16px;           /* gives breathing room on small screens */
 }
 
 h1 {
@@ -99,7 +99,7 @@ h2 {
   margin-bottom: 4px;
 }
 
-/* ✅ Extra tuning for very small screens */
+/* Extra tuning for very small screens */
 @media (max-width: 480px) {
   .container {
     padding: 20px 16px 22px;
