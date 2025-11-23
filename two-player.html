@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic-Tac-Toe | 2 Player Mode</title>
+  <link rel="stylesheet" href="two-player.css">
+</head>
+<body>
+  <div class="container">
+    <h1>2 Player Mode</h1>
+    <p class="subtitle">Tic-Tac-Toe (Human vs Human)</p>
+
+    <div class="status" id="status">Turn: X</div>
+
+    <div class="board" id="board">
+      <div class="cell" data-index="0"></div>
+      <div class="cell" data-index="1"></div>
+      <div class="cell" data-index="2"></div>
+      <div class="cell" data-index="3"></div>
+      <div class="cell" data-index="4"></div>
+      <div class="cell" data-index="5"></div>
+      <div class="cell" data-index="6"></div>
+      <div class="cell" data-index="7"></div>
+      <div class="cell" data-index="8"></div>
+    </div>
+
+    <div class="controls">
+      <button id="reset-btn" class="btn">Reset Game</button>
+      <button id="home-btn" class="btn secondary">Back to Home</button>
+    </div>
+
+    <!--<div class="info-box">
+      <h3>How to Explain This Page</h3>
+      <p>
+        This is a basic implementation of Tic-Tac-Toe without any AI.
+        Two players sit at the same computer and click alternately.
+      </p>
+      <p>
+        You can use this page to first explain the rules, winning conditions,
+        and how the board is represented using an array in JavaScript.
+      </p>
+    </div>-->
+  </div>
+
+  <script src="two-player.js"></script>
+</body>
+</html>
