@@ -159,7 +159,7 @@ function getBestMove(b) {
   for (let i = 0; i < 9; i++) {
     if (b[i] === "") {
       b[i] = aiPlayer;
-      const score = minimax(b, 0, false, nodesCounter);
+      const score = minimax(b, 0, false, nodesCounter); //b, depth, isMaximizing, nodesCounter
       b[i] = "";
 
       if (score > bestScore) {
